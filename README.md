@@ -1,2 +1,2 @@
 # alb-ecs-iac
-Sample python app running in ECS 
+This terraform code will create ECS, ECR ,ALB and other dependencies.
