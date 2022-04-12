@@ -1,11 +1,11 @@
 variable "vpc_id" {
-  default="vpc-0fe60e8ce29e2a4c2"
+  default=""
   type= string
 }
 variable "vpc_subnets" {
   description = "List of subnets to put instances in"
   type = list(string)
-  default     = ["subnet-0529987600c3f53b8","subnet-0012144a606d1140c"]
+  default     = ["",""]
 }
 variable "aws_region" {
   type        = string
@@ -14,7 +14,7 @@ variable "aws_region" {
 }
 variable "vpc_private_subnets" {
   description = "private subnets"
-  default     = ["subnet-0529987600c3f53b8","subnet-0012144a606d1140c"]
+  default     = ["",""]
 }
 
 
