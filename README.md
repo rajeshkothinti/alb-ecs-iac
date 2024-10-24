@@ -1,4 +1,4 @@
-#alb-ecs-iac
+alb-ecs-iac
 Prereq:
 
 exisitng VPC ,subnets and ECS role
